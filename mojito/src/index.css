@@ -351,7 +351,7 @@ body {
         }
 
         #f-right-leaf {
-            @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
+            @apply absolute top-[100vh] right-0 pointer-events-none hidden lg:block;
         }
 
         .content {

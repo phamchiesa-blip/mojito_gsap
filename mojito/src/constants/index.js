@@ -169,6 +169,12 @@ const sliderLists = [
  },
 ];
 
+const iceCreams = [
+	{image: '/images/ice_cream-removebg-preview.png', name: 'Marau Ice-cream', price: '9$'},
+	{image: '/images/kc.png', name: 'Ice-cream cones', price: '4$'},
+	{image: '/images/koq.png', name: 'Fruit Ice-cream', price: '12$'},
+];
+
 export {
  navLinks,
  cocktailLists,
@@ -180,4 +186,5 @@ export {
  storeInfo,
  socials,
  sliderLists,
+ iceCreams
 };
