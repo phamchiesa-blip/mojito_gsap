@@ -46,8 +46,8 @@ const Contact = () => {
 
 		<div className="h-screen content">
 			<h2 className="items-center text-gray-400">Ice-cream for summer</h2>
-			<div>
-				<ul className='flex flex-row justify-around text-3xl font-semibold'>
+			<div className="">
+				<ul className='flex flex-row justify-around md:text-3xl text-xl font-semibold'>
 					<li onClick={() => {
 						setIndexIce(0)
 						setActive("icecream")
@@ -73,7 +73,7 @@ const Contact = () => {
 			</div>
 
 			<div className="flex justify-center ic-img">
-					<img src={iceCreams[indexIce].image} className='w-100vw h-50vh items-center' />
+					<img src={iceCreams[indexIce].image} className='lg:w-100vw w-70vw h-50vh items-center' />
 			</div>
 			
 		</div>
